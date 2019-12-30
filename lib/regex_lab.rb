@@ -3,11 +3,14 @@ def starts_with_a_vowel?(word)
 end
 
 def words_starting_with_un_and_ending_with_ing(text)
+  
 "I do not like to underlying truth".scan(/[\^+"un"\$+"ing"])
 
 end
 
 def words_five_letters_long(text)
+  
+"plain main fain mouse house tally".scan(/\a{5}/)
 
 end
 
